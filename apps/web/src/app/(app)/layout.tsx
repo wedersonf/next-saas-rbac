@@ -11,5 +11,5 @@ export default async function AppLayout({
     redirect('/auth/sign-in')
   }
 
-  return <>{children}</>
+  return <div>{children}</div>
 }
